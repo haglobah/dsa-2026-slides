@@ -1,0 +1,1 @@
+import{f as t,o as e,b as a,w as s,i as r}from"./modules/vue--x-Z2nTZ.js";import{u as n}from"./slidev/context-CxmNpcQH.js";import{_ as i}from"./Spoiler.vue_vue_type_style_index_0_lang-CQKr4m_o.js";const u=t({__name:"Solution",setup(_){return n(),(o,m)=>(e(),a(i,{variant:"solution"},{default:s(()=>[r(o.$slots,"default")]),_:3}))}});export{u as _};
