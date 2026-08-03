@@ -1,0 +1,11 @@
+import{_ as o}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-B0zBLbNA.js";import{o as p,b as c,w as n,g as s,d as m,m as u,ad as a,v as d,x as f,T as t}from"./modules/vue--x-Z2nTZ.js";import{I as v}from"./slidev/default-CWWRTHRB.js";import{u as k,f as N}from"./slidev/context-5scVU-gw.js";import"./modules/unplugin-icons-BosMuh2c.js";import"./index-CR0811HQ.js";import"./modules/shiki-CFwSv2Li.js";import"./slidev/TitleIcon.vue_vue_type_script_setup_true_lang-wsM5LExE.js";const C={__name:"slides.md__slidev_144",setup(_){const{$clicksContext:l,$frontmatter:r}=k();return l.setup(),(g,e)=>{const i=o;return p(),c(v,d(f(t(N)(t(r),143))),{default:n(()=>[e[1]||(e[1]=s("h1",null,"Die Grammatik 2/3: Programm-Struktur",-1)),m(i,u({},{title:"",ranges:[]}),{default:n(()=>[...e[0]||(e[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"class:           'class' className '{' classVarDec* subroutineDec* '}'")]),a(`
+`),s("span",{class:"line"},[s("span",null,"classVarDec:     ('static' | 'field') type varName (',' varName)* ';'")]),a(`
+`),s("span",{class:"line"},[s("span",null,"type:            'int' | 'char' | 'boolean' | className")]),a(`
+`),s("span",{class:"line"},[s("span",null,"subroutineDec:   ('constructor' | 'function' | 'method') ('void' | type)")]),a(`
+`),s("span",{class:"line"},[s("span",null,"                 subroutineName '(' parameterList ')' subroutineBody")]),a(`
+`),s("span",{class:"line"},[s("span",null,"parameterList:   ((type varName) (',' type varName)*)?")]),a(`
+`),s("span",{class:"line"},[s("span",null,"subroutineBody:  '{' varDec* statements '}'")]),a(`
+`),s("span",{class:"line"},[s("span",null,"varDec:          'var' type varName (',' varName)* ';'")]),a(`
+`),s("span",{class:"line"},[s("span",null,"className:       identifier")]),a(`
+`),s("span",{class:"line"},[s("span",null,"subroutineName:  identifier")]),a(`
+`),s("span",{class:"line"},[s("span",null,"varName:         identifier")])])],-1)])]),_:1},16)]),_:1},16)}}};export{C as default};
