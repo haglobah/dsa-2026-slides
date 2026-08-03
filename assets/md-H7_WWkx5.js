@@ -1,0 +1,14 @@
+import{_ as u}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-BmFpujVx.js";import{o as f,b as g,w as e,g as s,d as a,m as t,ad as l,v as c,x as m,T as o}from"./modules/vue--x-Z2nTZ.js";import{_ as k}from"./two-cols.vue_vue_type_script_setup_true_lang-CQXnbHSy.js";import{u as h,f as b}from"./slidev/context-B2hu1eNz.js";import"./modules/unplugin-icons-BosMuh2c.js";import"./index-CYSjxZVy.js";import"./modules/shiki-CFwSv2Li.js";import"./slidev/TitleIcon.vue_vue_type_script_setup_true_lang-wsM5LExE.js";const L={__name:"slides.md__slidev_158",setup(_){const{$clicksContext:r,$frontmatter:p}=h();return r.setup(),(C,n)=>{const i=u;return f(),g(k,c(m(o(b)(o(p),157))),{left:e(d=>[...n[0]||(n[0]=[s("h1",null,"if und while",-1),s("p",null,[l("Die VM hat kein if und kein while, nur "),s("code",null,"label"),l(", "),s("code",null,"goto"),l(", "),s("code",null,"if-goto"),l(".")],-1),s("p",null,"Der Compiler benutzt immer dasselbe Muster, mit durchnummerierten Labels.",-1),s("p",null,[l("Die Bedingung wird mit "),s("code",null,"not"),l(" negiert: Gesprungen wird, wenn sie "),s("strong",null,"nicht"),l(" gilt.")],-1)])]),right:e(d=>[n[3]||(n[3]=s("p",null,[s("code",null,"if (Bedingung) { ... } else { ... }")],-1)),a(i,t({},{title:"",ranges:[]}),{default:e(()=>[...n[1]||(n[1]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"  (Code für Bedingung)")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  not")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  if-goto ELSE0")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  (Code für den if-Teil)")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  goto END0")]),l(`
+`),s("span",{class:"line"},[s("span",null,"label ELSE0")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  (Code für den else-Teil)")]),l(`
+`),s("span",{class:"line"},[s("span",null,"label END0")])])],-1)])]),_:1},16),n[4]||(n[4]=s("p",null,[s("code",null,"while (Bedingung) { ... }")],-1)),a(i,t({},{title:"",ranges:[]}),{default:e(()=>[...n[2]||(n[2]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"label WHILE0")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  (Code für Bedingung)")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  not")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  if-goto END1")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  (Code für den Rumpf)")]),l(`
+`),s("span",{class:"line"},[s("span",null,"  goto WHILE0")]),l(`
+`),s("span",{class:"line"},[s("span",null,"label END1")])])],-1)])]),_:1},16)]),_:1},16)}}};export{L as default};
